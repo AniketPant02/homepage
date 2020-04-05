@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Input } from "antd";
-import { GoogleOutlined } from "@ant-design/icons";
 const { Search } = Input;
 
 export default class SearchBar extends Component {
@@ -20,7 +19,6 @@ export default class SearchBar extends Component {
             textAlign: "center"
           }}
           enterButton={true}
-          prefix={<GoogleOutlined />}
         />
       </div>
     );
