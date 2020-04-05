@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .App {
     z-index: 0;
@@ -12,7 +13,7 @@
 .welcomeHeader {
     text-align: center;
     position: relative;
-    top: 26%;
+    top: 23%;
 }
 
 .welcomeTime {
@@ -27,7 +28,7 @@
 
 .linksParentContainer {
     position: relative;
-    top: 30%;
+    top: 27%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -61,7 +62,7 @@
 }
 
 li {
-    font-size: 1.1em;
+    font-size: 1.25em;
 }
 
 li:not(:last-child) {
@@ -69,7 +70,7 @@ li:not(:last-child) {
 }
 
 .groupHeader {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
