@@ -8,7 +8,7 @@ export default class SearchBar extends Component {
     this.textInput = React.createRef();
   }
   componentDidMount() {
-    document.addEventListener("keypress", this.handleKeyPress, false);
+    //document.addEventListener("keypress", this.handleKeyPress, false);
     //this.textInput.current.focus();
   }
   handleKeyPress(event) {

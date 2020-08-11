@@ -4,7 +4,6 @@ import "./App.css";
 import Particles from "./Particles";
 import SearchBar from "./Components/SearchBar";
 
-
 const styles = {
   root: {
     fontFamily: "sans-serif",
@@ -86,29 +85,29 @@ class App extends Component {
               </li>
               <li>
                 <a
-                  href="https://classroom.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Google Classroom
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://sis-jeffersonco.chalkableinformationnow.com/InformationNow/Login.aspx?ReturnUrl=%2fInformationNow%2fParentPortal%2fSti.Home.UI.Web%2fStudent%2fGrades.aspx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  iNow
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://calendar.google.com/calendar/r"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Calendar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="notion://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Notion
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://tomato-timer.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pomodoro
                 </a>
               </li>
             </ul>
@@ -121,7 +120,7 @@ class App extends Component {
             <ul className="links">
               <li>
                 <a
-                  href="https://uab.instructure.com/"
+                  href="https://gatech.instructure.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -130,29 +129,29 @@ class App extends Component {
               </li>
               <li>
                 <a
-                  href="https://rc.uab.edu/pun/sys/dashboard"
+                  href="https://buzzport.gatech.edu/my/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Cheaha
+                  BuzzPort
                 </a>
               </li>
               <li>
                 <a
-                  href="https://mie-graphs.herokuapp.com/"
+                  href="https://oscar.gatech.edu"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Mie Extinction
+                  Oscar
                 </a>
               </li>
               <li>
                 <a
-                  href="https://outlook.office365.com/owa/?realm=uab.edu&path=/mail/inbox"
+                  href="https://mail.gatech.edu/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  UAB Email
+                  GaTech Email
                 </a>
               </li>
             </ul>
